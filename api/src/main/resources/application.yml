@@ -1,9 +1,11 @@
 spring:
   profiles:
     active:
-      - ${ACTIVE_PROFILE}
+#      - ${ACTIVE_PROFILE}
+      - dev-h2
 server:
-  port: ${PORT}
+#  port: ${PORT}
+  port: 8080
 
 ---
 # dev H2 profile properties
